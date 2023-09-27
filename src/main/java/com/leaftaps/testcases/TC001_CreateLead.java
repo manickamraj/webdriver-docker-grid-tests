@@ -12,7 +12,7 @@ public class TC001_CreateLead extends ProjectHooks{
 	public void setValues() {
 		testcaseName = "Create Lead";
 		testDescription ="Create a new Lead";
-		authors="Babu";
+		authors="Manickam";
 		category ="Smoke";
 	}
 	
@@ -24,11 +24,11 @@ public class TC001_CreateLead extends ProjectHooks{
 			.clickCrmsfaLink()
 			.clickLeadsLink()
 			.clickCreateLeadLink()
-			.enterFirstName("Babu")
-			.enterLastName("Manickam")
+			.enterFirstName("Manickam")
+			.enterLastName("Badhrachalam")
 			.enterCompanyName("TL")
 			.clickCreateLeadButton()
-			.verifyFirstName("Babu");
+			.verifyFirstName("Manickam");
 
 	}
 
